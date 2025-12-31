@@ -1,7 +1,10 @@
 # Pastebin Lite
 
-Run locally:
+A simple Pastebin-like application built with Next.js.
+
+## Run Locally
 npm install
 npm run dev
 
-Uses Vercel KV for persistence.
+## Persistence
+Uses Vercel KV (Redis) to persist data across serverless requests.
